@@ -1,22 +1,74 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ginkgo Team</title>
-  <!-- <link rel='stylesheet' href='https://codepen.io/uzcho_/pen/eYdmdXw.css'><link rel="stylesheet" href="./style.css"> -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ginkgo team</title>
+  <link rel="icon" type="image/png" sizes="100x100" href="image/456.png">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  
 </head>
 <body>
-<link rel='stylesheet' href='https://codepen.io/uzcho_/pen/eYdmdXw.css'><link rel="stylesheet" href="./style.css">
-<!-- partial:index.partial.html -->
-<div class="number">Ginkgo</div>
-<img src="qrcode.png" alt="QR Code">
-<div class="text">
-  <span>2023招新群号</span><br>437107265
-</div>
-<a class="me" href="https://codepen.io/uzcho_/pens/popular/?grid_type=list" target="_blank"></a>
-<!-- partial -->
-  <div class="text">
-  <span>Proxy is building,if you want to connect 2 team server,call the owner of this domain.</span><br>
-</div>
+  <div class="cursor"></div>
+<div class="cursor-border"></div>
+<header>
+  <a href="#home" class="logo"
+    ><img
+      width="250"
+      src="image/2023-04-24 144113_副本.png"
+    /></a
+  >
+  <nav class="site-nav">
+    <ul class="underline-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#member">member</a></li>
+    </ul>
+  </nav>
+</header>
+<input type="checkbox" id="burger-toggle" />
+<label for="burger-toggle" class="burger-menu">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</label>
+<div class="overlay"></div>
+<nav class="burger-nav">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#member">member</a></li>
+  </ul>
+</nav>
+<main>
+  <section class="hero-section" id="home">
+
+  </section>
+</section>
+<section class="normal-section" id="member">
+  <div class="titles">
+    <h1 class="cross-bar-glitch" data-slice="20">MEMBER</h1>
+    <h2 class="staggered-rise-in"></h2>
+  </div>
+  <div class="member-cards">
+    <div class="card">
+      <div class="card-borders">
+        <div class="border-top"></div>
+        <div class="border-right"></div>
+        <div class="border-bottom"></div>
+        <div class="border-left"></div>
+      </div>
+      <div class="card-content">
+        <img
+          src="image/pexels-photo-5989070.png"
+          class="avatar"
+        />
+        <div class="username">Ginkgo</div>
+        <div class="info"><br />网络安全实验室</div>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="main.js"></script>
 </body>
 </html>
